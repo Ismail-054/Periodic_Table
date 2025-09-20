@@ -1,0 +1,246 @@
+* {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        ::-webkit-scrollbar {
+            width: 8px;
+            height: 6px;
+        }
+
+        ::-webkit-scrollbar-track {
+            background: #2ed734;
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background-color: #73ff77;
+            border-radius: 10px;
+        }
+
+        ::-webkit-scrollbar-thumb:hover {
+            background-color: #45a049;
+        }
+
+        header {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            height: 150px;
+            font-size: 35px;
+            /* padding: 1em 0; */
+        }
+
+        header h1 {
+            padding-top: 20px;
+            text-decoration: double underline;
+            /* font-size: em; */
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        footer {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            height: 150px;
+            font-size: 20px;
+            /* padding: 1em 0; */
+        }
+
+        footer p {
+            padding-top: 20px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        .footer_Para {
+            padding-top: 10px;
+            font-size: 15px;
+            /* font-weight: 200; */
+            font-style: italic;
+        }
+
+        main {
+            min-height: 110vh;
+            max-height: 300vh;
+            /* background-color: white; */
+            background-color: #2ed734;
+            /* padding: 1em; */
+        }
+
+        table {
+            left: 30px;
+            top: 50px;
+            position: relative;
+            width: autosize;
+            padding-top: 50px;
+            border-collapse: collapse;
+            text-align: center;
+        }
+
+        td {
+            border: 4px solid white;
+            width: 80px;
+            height: 60px;
+            /* padding: 5px; */
+        }
+
+        td p {
+            margin: 2px;
+        }
+
+        .symbol {
+            font-size: 1.5em;
+            font-weight: bold;
+        }
+
+        .empty {
+            background-color: transparent;
+            border: none;
+        }
+
+        .element1,
+        .element6,
+        .element7,
+        .element8,
+        .element9,
+        .element15,
+        .element16,
+        .element17,
+        .element34,
+        .element35,
+        .element53,
+        .element85,
+        .element117 {
+            background-color: lightgoldenrodyellow;
+        }
+
+        .element2,
+        .element10,
+        .element18,
+        .element36,
+        .element54,
+        .element86,
+        .element118 {
+            background-color: peachpuff;
+        }
+
+        .element3,
+        .element11,
+        .element19,
+        .element37,
+        .element55,
+        .element87 {
+            background-color: rgb(255, 167, 184);
+        }
+
+        .element4,
+        .element12,
+        .element20,
+        .element38,
+        .element56,
+        .element88 {
+            background-color: rgb(178, 160, 221);
+        }
+
+        .element5,
+        .element14,
+        .element32,
+        .element33,
+        .element51,
+        .element52,
+        .element84 {
+            background-color: rgb(222, 215, 135);
+        }
+
+        .element13,
+        .element31,
+        .element49,
+        .element50,
+        .element81,
+        .element82,
+        .element83,
+        .element113,
+        .element114,
+        .element115,
+        .element116 {
+            background-color: lightgreen;
+        }
+
+        .element21,
+        .element22,
+        .element23,
+        .element24,
+        .element25,
+        .element26,
+        .element27,
+        .element28,
+        .element29,
+        .element30,
+        .element39,
+        .element40,
+        .element41,
+        .element42,
+        .element43,
+        .element44,
+        .element45,
+        .element46,
+        .element47,
+        .element48,
+        .element72,
+        .element73,
+        .element74,
+        .element75,
+        .element76,
+        .element77,
+        .element78,
+        .element79,
+        .element80,
+        .element104,
+        .element105,
+        .element106,
+        .element107,
+        .element108,
+        .element109,
+        .element110,
+        .element111,
+        .element112 {
+            background-color: rgb(138, 206, 228);
+        }
+
+        .element57-71,
+        .lanthanides1,
+        .lanthanides2,
+        .lanthanides3,
+        .lanthanides4,
+        .lanthanides5,
+        .lanthanides6,
+        .lanthanides7,
+        .lanthanides8,
+        .lanthanides9,
+        .lanthanides10,
+        .lanthanides11,
+        .lanthanides12,
+        .lanthanides13,
+        .lanthanides14,
+        .lanthanides15 {
+            background-color: rgb(127, 249, 249);
+        }
+
+        .element89-103,
+        .actinides1,
+        .actinides2,
+        .actinides3,
+        .actinides4,
+        .actinides5,
+        .actinides6,
+        .actinides7,
+        .actinides8,
+        .actinides9,
+        .actinides10,
+        .actinides11,
+        .actinides12,
+        .actinides13,
+        .actinides14,
+        .actinides15 {
+            background-color: rgb(99, 249, 236);
+        }
